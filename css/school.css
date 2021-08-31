@@ -1,0 +1,418 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Poppins', Arial,sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+/* Root */
+
+
+
+
+/*Navbar*/
+.navbar{
+	min-height: 5.25rem;
+}
+
+.navbar-burger {
+    color: #008675;
+    height: 6.25rem;
+    width: 4.50rem;
+}
+
+.navbar-burger:hover{
+	background: transparent;
+}
+
+.navbar-burger span{
+	height: 2px;
+	width: 24px;
+}
+
+.navbar-menu.is-active{
+	box-shadow: none;
+	padding:1rem;
+}
+
+a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:hover, .navbar-link.is-active {
+    background-color: transparent;
+    color: #008675;
+}
+
+.navbar-item, .navbar-link {
+	font-weight: 600;
+	font-size:15px;
+    color: #008675;
+}
+
+.navbar-item.school-logo{
+	font-weight: 600;
+	font-size: 22px;
+	color: #008675;
+}
+
+.button.school-navbar-button{
+	padding:1.25rem;
+	border-radius: 10px;
+	font-size:15px;
+	color:#008675;
+}
+/* Navbar */
+
+
+
+
+/* Hero */
+.title.school-headline-hero{
+	font-weight: 700;
+	font-size:60px;
+	color:#46455b;
+}
+
+.subtitle.school-tagline-hero{
+	font-size:14px;
+	color:#9e9e9e;
+	line-height: 1.8;
+	padding-top:1rem;
+	margin-right: 4rem;
+}
+
+.button.school-hero-button{
+	padding: 1.50rem;
+    background: #008675;
+    border: 1px solid #008675;
+    border-radius: 10px;
+}
+
+.button.school-hero-button span{
+	color: #fff;
+	font-size:14px;
+}
+
+
+
+
+/* Section Courses */
+.section.school-courses-section{
+	background: #eff9ff;
+}
+
+.school-container{
+	text-align: center;
+	padding:2rem 0;
+}
+
+.subtitle.school-courses-tagline{
+	font-weight: 600;
+	font-size:16px;
+	color:#ffd566;
+	padding-bottom: 1rem;
+}
+
+.title.school-courses-headline{
+	font-weight: 700;
+	color:#46455b;
+}
+
+.school-courses-card-container{
+	padding:3rem 0;
+}
+
+.box.school-courses-box-first{
+	margin:1rem;
+	background: #63b7f4;
+	box-shadow: none;
+	transform: translateY(-50px);
+	height: 200px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.box.school-courses-box-first span{
+	position: relative;
+	text-align: center;
+	color:#fff;
+}
+
+.box.school-courses-box-second{
+	margin:1rem;
+	background: #00ac96;
+	box-shadow: none;
+	transform: translateY(-50px);
+	height: 200px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.box.school-courses-box-second span{
+	position: relative;
+	text-align: center;
+	color:#fff;
+}
+
+.box.school-courses-box-third{
+	margin:1rem;
+	background: #e91e62;
+	box-shadow: none;
+	transform: translateY(-50px);
+	height: 200px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.box.school-courses-box-third span{
+	position: relative;
+	text-align: center;
+	color:#fff;
+}
+
+.card.school-courses-card{
+	box-shadow: none;
+	border-radius: 10px;
+}
+
+.content.school-courses-card-content{
+	text-align: center;
+	margin-top: -1.7rem;
+	margin-bottom: 1.2rem;
+}
+
+.title.school-courses-card-title{
+	font-weight: 700;
+	font-size: 18px;
+	color:#5043a0;
+}
+
+.subtitle.school-courses-card-subtitle{
+	font-weight: 500;
+	font-size:14px;
+	color:#9e9e9e;
+	line-height: 1.8;
+	padding-top:1rem;
+	padding-bottom:0.5rem;
+}
+
+.school-courses-card-button{
+	font-weight: 600;
+	font-size: 14px;
+	text-decoration: none;
+	color:#63b7f4;
+}
+
+
+
+
+/* School About */
+.school-about-container{
+	text-align: center;
+	padding: 1.5rem 0;
+}
+
+.subtitle.school-about-tagline{
+	font-weight: 600;
+	font-size:13px;
+	color:#ffd566;
+	padding-top: 2.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.title.school-about-headline{
+	font-weight: 700;
+	font-size: 28px;
+	color:#46455b;
+}
+
+.subtitle.school-about-subtitle{
+	font-weight: 500;
+	font-size:14px;
+	color:#9e9e9e;
+	line-height: 1.8;
+	margin-left: 14rem;
+	margin-right: 14rem;
+	text-align: center;
+}
+
+.school-about-cta{
+	padding-top:0.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button.school-about-button{
+	padding: 1.50rem;
+    background: #008675;
+    border: 1px solid #008675;
+    border-radius: 10px;
+    text-align: center;
+	position: relative;
+}
+
+.button.school-about-button span{
+	color: #fff;
+	font-size:14px;
+}
+
+
+
+
+/* School Features*/
+.school-features-section{
+	background: #eff9ff;
+	margin:3rem 0;
+}
+
+.box.school-features-card{
+	box-shadow: none;
+	padding:1rem;
+}
+
+.content.school-features-content{
+	padding-top: 1rem;
+}
+
+.box.school-features-card-first{
+	width: 100px;
+	height: 100px;
+	background: #63b7f4;
+	box-shadow: none;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.box.school-features-card-first span{
+	position: relative;
+	text-align: center;
+	margin-top: 8px;
+	color:#fff;
+}
+
+.box.school-features-card-second{
+	width: 100px;
+	height: 100px;
+	background: #00ac96;
+	box-shadow: none;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.box.school-features-card-second span{
+	position: relative;
+	text-align: center;
+	margin-top: 8px;
+	color:#fff;
+}
+
+.box.school-features-card-third{
+	width: 100px;
+	height: 100px;
+	background: #e91e62;
+	box-shadow: none;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.box.school-features-card-third span{
+	position: relative;
+	text-align: center;
+	margin-top: 8px;
+	color:#fff;
+}
+
+.title.school-features-card-title{
+	font-weight: 700;
+	font-size: 15px;
+	color:#5043a0;
+}
+
+.subtitle.school-features-card-subtitle{
+	font-weight: 500;
+	font-size:12px;
+	color:#9e9e9e;
+	line-height: 1.8;
+	padding-top:0.5rem;
+	margin-right: 1rem;
+}
+
+
+
+
+/* Help */
+.title.school-help-title{
+	font-weight: 700;
+	font-size:42px;
+	color:#46455b;
+}
+
+.subtitle.school-help-subtitle{
+	font-size:14px;
+	color:#9e9e9e;
+	line-height: 1.8;
+	padding-top:1rem;
+	margin-right: 4rem;
+}
+
+.button.school-help-button{
+	padding: 1.50rem;
+    background: #008675;
+    border: 1px solid #008675;
+    border-radius: 10px;
+    text-align: center;
+	position: relative;
+}
+
+
+
+
+/* Footer */
+.footer.school-footer{
+	text-align: center;
+	padding:1.5rem 1.5rem 1.5rem;
+}
+
+.footer.school-footer span{
+	font-weight: 500;
+	color: #008675;
+}
+
+
+/* Responsive Web Design Property */
+@media only screen and (max-width:600px) {
+	br{
+		display: none;
+	}
+
+	.navbar-item.school-logo br{
+		display: block;
+	}
+
+	.navbar-item.school-logo{
+		margin-left: 12px;
+	}
+
+	.card.school-courses-card{
+		box-shadow: none;
+		border-radius: 10px;
+		padding-top: 3.2rem;
+		transition: 0.5s all;
+	}
+
+	.subtitle.school-about-subtitle{
+		font-weight: 500;
+		font-size:14px;
+		color:#9e9e9e;
+		line-height: 1.8;
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+}
